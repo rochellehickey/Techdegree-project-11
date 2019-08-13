@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react';
-import '../App.css';
-import Container from '../Container';
+import Container from './components/Container';
 
-function App() {
-  return (
-    <Container />
-  );
-};
+class App extends Component {
+  render() {
+    return(
+      <Container />
+    )
+  }
+}
 
 export default App;
